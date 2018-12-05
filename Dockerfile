@@ -1,8 +1,8 @@
 FROM python:2.7-slim
 MAINTAINER browny.lin@gcp.expert
 
-ENV GCLOUD=/root/google-cloud-sdk/bin/gcloud
-ENV GSUTIL=/root/google-cloud-sdk/bin/gsutil
+ENV GCLOUD=/Users/spider391tang/projects/google-cloud-sdk/bin/gcloud
+ENV GSUTIL=/Users/spider391tang/projects/google-cloud-sdk/bin/gsutil
 
 # install curl and gcloud SDK
 RUN \
